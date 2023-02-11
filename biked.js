@@ -8,5 +8,5 @@
  }
 
  function myURL() {
-    window.open('file:///home/ukijaffna/Downloads/ASSIGNMENT1/index.html' , name = self);
+    window.open('https://aruneasonny83.github.io/Basic-project/index.html' , name = self);
  }
