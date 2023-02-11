@@ -1,0 +1,281 @@
+.bgcolor{
+  background-color:rgb(0, 0, 0);
+  transition-duration: 0.1s;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.bgcolor :hover {
+  background-color: black;
+  color: white;
+}
+
+#txtcolor{
+    color:rgb(27, 223, 10);
+}
+
+.alinleft {
+    margin-left: 600px;
+}
+
+#txtcolor1{
+    color:rgb(0, 0, 0);
+    margin-left: 200px;
+     
+}
+
+.al{
+  margin-top:-100px;
+}
+
+#bg1 {
+    background-color: rgb(0, 0, 0); 
+    height:40px;
+    width:auto;
+    
+    font-size:20px;
+    padding-right:60px;
+    
+  }
+
+  .link1{
+    color: rgb(20, 240, 0);
+    padding-left: 1200px;
+  }
+
+  
+  .link2{
+    color: rgb(19, 230, 0);
+  }
+
+  
+  .link3{
+    color: rgb(19, 230, 0);
+  }
+
+
+/*slide show*/
+
+
+.slider {
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.imgs_slides {
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+
+
+.imgs_slides input {
+    display: none;
+}
+
+.slide {
+    width: 20%;
+    transition: 2s;
+}
+
+.slide img {
+    width: 800px;
+    height: 500px;
+}
+
+/* css for slide navigation */
+.navigation {
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-btn {
+    border: 2px solid #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-btn:not(:last-child) {
+    margin-right: 40px;
+}
+
+.navigation-btn:hover {
+    background: #ff002b;
+}
+
+/* The checked attribute is used with
+reference to <input type="radio">, 
+when radio button is clicked the 
+class will shift w.r.t  left margin 
+as mentioned which results in image 
+slider */
+#radio1:checked~.first {
+    margin-left: 0;
+}
+
+#radio2:checked~.first {
+    margin-left: -20%;
+}
+
+#radio3:checked~.first {
+    margin-left: -40%;
+}
+
+#radio4:checked~.first {
+    margin-left: -60%;
+}
+
+#radio5:checked~.first {
+    margin-left: -80%;
+}
+
+.slider{
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+
+
+#fontstyle{
+    margin-top: -40px;
+    color: #09ff00;
+    font-family:cursive;
+}
+
+#box1{
+    margin-left:1100px;
+ 
+    background-color: rgb(246, 239, 239);
+    width: 500px;
+    height: 300px;
+    border: 2px solid rgb(248, 248, 245);
+     padding: 50px;
+     
+    border-style: inset;
+    padding-top: 80px;
+    margin-top: -500px;
+      }
+  
+
+  .para01{
+    margin-left:1100px;
+    margin-top:50px;
+  }
+
+  #parag1{
+    text-align: left;
+  }
+
+#button{
+  background-color: #f3aed9;;
+  width: 200px;
+  height: 30px;
+font-family: cursive;
+font-size: medium;
+ 
+}
+
+.topic{
+  font-weight: bold;
+}
+
+
+
+/*footer*/
+.social-icons{
+ margin-left: 1230px;
+ margin-top: -190px;
+}
+
+.footer-icons{
+  font-size: 40px;
+  
+  
+ 
+}
+
+#foot{
+  background-color: rgb(252, 246, 250);
+  border:3px solid rgb(239, 239, 235);
+  height: 400px;
+}
+
+.color1{
+  color: black;
+  text-align: left;
+ }
+
+#copyright{
+  background-color: #cccccc;
+  margin-top: 70px;
+}
+
+#down{
+  padding-top: 100px  ;
+}
+
+/*font styles*/
+#h2font{
+  font-family:monospace;
+  color: #03d40e;
+}
+
+#h4fnt{
+
+  color: #03d40e;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#h4fnt2{
+  color: #03d40e;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#h4fnt1{
+  color: #03d40e;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+#h4fnt3{
+  color: #03d40e;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+
+
+/*end font styles*/
+
+/*icons color*/
+
+#fb{
+  color: #000ba1;
+}
+
+#tw{
+  color: #8ac5fc;
+}
+
+#ins{
+  color: #ff0077;
+}
+
+#lin{
+  color: #1eb8e7;
+}
+#yut{
+  color: #ff0000;
+}
+
+#skp{
+  color: #0b43aa;
+}
