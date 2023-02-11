@@ -8,7 +8,7 @@
  }
 
  function myURL() {
-    window.open('file:///home/ukijaffna/Downloads/ASSIGNMENT1/biked.html', name = self);
+    window.open('biked.html', name = self);
  }
 
 
