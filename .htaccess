@@ -1,0 +1,5 @@
+<Ifmodule mod_rewrite.c>
+RewriteEngine On
+
+
+<Ifmodule>
