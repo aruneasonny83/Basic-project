@@ -8,7 +8,7 @@
  }
 
  function myURL() {
-    window.open('biked.html', name = self);
+    window.open('https://aruneasonny83.github.io/Basic-project/biked.html', name = self);
  }
 
 
